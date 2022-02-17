@@ -1,0 +1,49 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ImgHeader{
+    background: url(/ressources/imgHeaderNav.jpg);
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+.logo img{
+width: 250px;
+margin-left: 15px;
+
+}
+.navBarre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+ul li {
+    margin: 25px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.slogan{
+    font-size: 65px;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 5%;
+    font-family: 'Source Serif Pro', serif;
+}
+
